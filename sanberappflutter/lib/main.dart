@@ -66,3 +66,4 @@ class _CounterPageState extends State<CounterPage> {
 //APA KEGUNAANNYA
 //Kegunaan dari SetState dapat merubah tampilan menjadi lebih dinamis dengan 
 //mengubah data lama menjadi data yang baru berdasarkan interaksi dari pengguna
+
