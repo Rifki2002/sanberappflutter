@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:sanberapp61/pages/get_started.dart';
-import 'package:sanberapp61/pages/home_page.dart';
-import 'package:sanberapp61/pages/news_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +18,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const NewsPage(),
+      home: const GetStarted(),
     );
   }
 }

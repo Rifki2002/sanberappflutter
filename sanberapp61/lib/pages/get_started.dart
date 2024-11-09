@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'home_page.dart';
 
 class GetStarted extends StatelessWidget {
   const GetStarted({super.key});
@@ -50,7 +51,12 @@ class GetStarted extends StatelessWidget {
                   child: Container(
                     margin: EdgeInsets.only(right: 20, left: 20),
                     child: ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(builder: (context) => HomePage()),
+                        );
+                      },
                       child: Text(
                         "Masuk",
                         style: GoogleFonts.arimo(
